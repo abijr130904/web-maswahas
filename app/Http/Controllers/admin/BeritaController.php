@@ -27,7 +27,7 @@ class BeritaController extends Controller
             'tanggal' => 'required|date',
             'konten' => 'required',
             'gambar' => 'nullable|image'
-            dd($request->all());
+            
         ]);
 
         $data = $request->all();
